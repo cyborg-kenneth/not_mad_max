@@ -10,6 +10,7 @@ var velocity = Vector2.ZERO
 var can_fire = true
 
 onready var fire_rate = get_node("FireRate")
+onready var gun_sound = get_node("Gun")
 
 func _physics_process(delta):
 	var input_vector = get_input_vector()
@@ -28,6 +29,7 @@ func get_input_vector()->Vector2:
 	
 func fire(): 
 	var main = get_tree().current_scene
+	gun_sound.play()
 	var bullet = Utils.instance_node(PlayerBullet, main, global_position)
 	var direction = (get_global_mouse_position() - global_position).normalized()
 	if direction != Vector2.ZERO: 

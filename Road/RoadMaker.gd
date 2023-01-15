@@ -9,6 +9,6 @@ func _ready():
 	print(global_position)
 
 func _process(_delta):
-	if oldest_son != null and oldest_son.global_position.y >= 800: 
+	if oldest_son != null and oldest_son.global_position.y >= 400: 
 		var new_node = Utils.instance_node(sand_road_A, self, oldest_son.global_position - Vector2(0, 1000))
 		oldest_son = new_node
