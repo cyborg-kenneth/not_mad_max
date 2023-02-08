@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Tonto_Guanajuato.wav-673f673156365cb3e22f6f43d7a23221.sample"
+
+[deps]
+
+source_file="res://Music/Tonto_Guanajuato.wav"
+dest_files=[ "res://.import/Tonto_Guanajuato.wav-673f673156365cb3e22f6f43d7a23221.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
